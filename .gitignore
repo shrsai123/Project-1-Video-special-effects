@@ -1,0 +1,30 @@
+# Build and dependency trees
+build/
+opencv/
+third_party/
+__pycache__/
+
+# Compiled binaries and runtime DLLs
+*.exe
+*.dll
+*.dll.a
+*.lib
+*.pdb
+*.obj
+*.o
+*.a
+
+# Archives
+*.zip
+
+# Generated video files
+*.avi
+*.mp4
+*.pcm
+
+# Large alternate model; the project uses model_fp16.onnx from da2-code.zip
+models/
+
+# Local editor/system files
+.vscode/
+desktop.ini
